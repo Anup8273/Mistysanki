@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SankiMusic.utilities.config import BANNED_USERS
-from SankiMusic.utilities.strings import get_command
-from SankiMusic import YouTube, bot
-from SankiMusic.modules.core.call import Kaal
-from SankiMusic.misc import db
-from SankiMusic.modules.utils.formatters import seconds_to_min
-from SankiMusic.modules.main.decorators.admins import AdminRightsCheck
+from 9xmMusic.utilities.config import BANNED_USERS
+from 9xmMusic.utilities.strings import get_command
+from 9xmMusic import YouTube, bot
+from 9xmMusic.modules.core.call import Kaal
+from 9xmMusic.misc import db
+from 9xmMusic.modules.utils.formatters import seconds_to_min
+from 9xmMusic.modules.main.decorators.admins import AdminRightsCheck
 
 # Commands
 SEEK_COMMAND = get_command("SEEK_COMMAND")
