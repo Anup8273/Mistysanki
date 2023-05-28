@@ -1,4 +1,4 @@
-# Powered By @AdityaHalder
+# Powered By @brahmaan_sher
 
 from typing import Union, List
 from pyrogram import filters
