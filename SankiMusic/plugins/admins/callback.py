@@ -5,16 +5,16 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
-from SankiMusic.utilities.strings import get_string
-from SankiMusic.utilities.config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
+from 9xmMusic.utilities.strings import get_string
+from 9xmMusic.utilities.config import (AUTO_DOWNLOADS_CLEAR, BANNED_USERS,
                     SOUNCLOUD_IMG_URL, STREAM_IMG_URL,
                     TELEGRAM_AUDIO_URL, TELEGRAM_VIDEO_URL,
                     MUSIC_BOT_NAME, adminlist)
-from SankiMusic import YouTube, bot
-from SankiMusic.modules.core.call import Kaal
-from SankiMusic.misc import SUDOERS, db
-from SankiMusic.modules.utils.sys import bot_sys_stats
-from SankiMusic.modules.main.database import (
+from 9xmMusic import YouTube, bot
+from 9xmMusic.modules.core.call import Kaal
+from 9xmMusic.misc import SUDOERS, db
+from 9xmMusic.modules.utils.sys import bot_sys_stats
+from 9xmMusic.modules.main.database import (
     get_active_chats,
     get_lang,
     is_active_chat,
@@ -24,17 +24,17 @@ from SankiMusic.modules.main.database import (
     music_on,
     set_loop,
 )
-from SankiMusic.modules.main.decorators.language import languageCB
-from SankiMusic.modules.utils.formatters import seconds_to_min
-from SankiMusic.utilities.inline import (
+from 9xmMusic.modules.main.decorators.language import languageCB
+from 9xmMusic.modules.utils.formatters import seconds_to_min
+from 9xmMusic.utilities.inline import (
     stream_markup,
     stream_markup_timer,
     telegram_markup,
     telegram_markup_timer,
     close_keyboard,
 )
-from SankiMusic.modules.main.streamer.autoclear import auto_clean
-from SankiMusic.modules.utils.thumbnails import gen_thumb
+from 9xmMusic.modules.main.streamer.autoclear import auto_clean
+from 9xmMusic.modules.utils.thumbnails import gen_thumb
 
 wrong = {}
 checker = {}
