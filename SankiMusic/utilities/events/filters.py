@@ -2,7 +2,7 @@
 
 from typing import Union, List
 from pyrogram import filters
-from SankiMusic.utilities.config import COMMAND_PREFIXES
+from 9xmMusic.utilities.config import COMMAND_PREFIXES
 
 
 # ╔══╗╔══╗╔═╦╗╔╦╗╔══╗  ╔═╦═╗╔╦╗╔══╗╔══╗╔═╗
