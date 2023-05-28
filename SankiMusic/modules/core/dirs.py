@@ -6,7 +6,7 @@ from ...console import LOGGER
 
 
 def dirr():
-    if "SankiMusic" not in listdir():
+    if "9xmMusic" not in listdir():
         LOGGER(__name__).warning(
             f"Assets Folder not Found. Please clone repository again."
         )
