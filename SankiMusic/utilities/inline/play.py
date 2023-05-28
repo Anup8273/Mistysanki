@@ -14,23 +14,23 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     sanki = math.floor(percentage)
-    if 0 < 9xm <= 10:
+    if 0 < Sanki <= 10:
         bar = "9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═════════"
-    elif 10 < 9xm < 20:
+    elif 10 < Sanki < 20:
         bar = "═9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑════════"
-    elif 20 <= 9xm < 30:
+    elif 20 <= Sanki < 30:
         bar = "══9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═══════"
-    elif 30 <= 9xm < 40:
+    elif 30 <= Sanki < 40:
         bar = "═══9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑══════"
-    elif 40 <= 9xm < 50:
+    elif 40 <= Sanki < 50:
         bar = "════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═════"
-    elif 50 <= 9xm < 60:
+    elif 50 <= Sanki < 60:
         bar = "═════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑════"
-    elif 60 <= 9xm < 70:
+    elif 60 <= Sanki < 70:
         bar = "══════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═══"
-    elif 70 <= 9xm < 80:
+    elif 70 <= Sanki < 80:
         bar = "═══════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑══"
-    elif 80 <= 9xm < 95:
+    elif 80 <= Sanki < 95:
         bar = "════════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═"
     else:
         bar = "═════════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑"
@@ -78,23 +78,23 @@ def telegram_markup_timer(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     sanki = math.floor(percentage)
-    if 0 < 9xm <= 10:
+    if 0 < Sanki <= 10:
         bar = "9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═════════"
-    elif 10 < 9xm < 20:
+    elif 10 < Sanki < 20:
         bar = "═9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑════════"
-    elif 20 <= 9xm < 30:
+    elif 20 <= Sanki < 30:
         bar = "══9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═══════"
-    elif 30 <= 9xm < 40:
+    elif 30 <= Sanki < 40:
         bar = "═══9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑══════"
-    elif 40 <= 9xm < 50:
+    elif 40 <= Sanki < 50:
         bar = "════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═════"
-    elif 50 <= 9xm < 60:
+    elif 50 <= Sanki < 60:
         bar = "═════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑════"
-    elif 60 <= 9xm < 70:
+    elif 60 <= Sanki < 70:
         bar = "══════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═══"
-    elif 70 <= 9xm < 80:
+    elif 70 <= Sanki < 80:
         bar = "═══════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑══"
-    elif 80 <= 9xm < 95:
+    elif 80 <= Sanki < 95:
         bar = "════════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═"
     else:
         bar = "═════════9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑"
