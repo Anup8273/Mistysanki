@@ -1,6 +1,6 @@
 # Sanki Database
 
-from SankiMusic.utilities import config
+from 9xmMusic.utilities import config
 from ...console import LOGGER
 
 from pymongo import MongoClient
