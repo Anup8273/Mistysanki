@@ -14,7 +14,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     sanki = math.floor(percentage)
-    if 0 < sanki <= 10:
+    if 0 < 9xm <= 10:
         bar = "9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═════════"
     elif 10 < 9xm < 20:
         bar = "═9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑════════"
@@ -78,7 +78,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     sanki = math.floor(percentage)
-    if 0 < sanki <= 10:
+    if 0 < 9xm <= 10:
         bar = "9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑═════════"
     elif 10 < 9xm < 20:
         bar = "═9𝐗𝐌 𝐒𝐄𝐑𝐕𝐄𝐑════════"
