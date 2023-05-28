@@ -6,7 +6,7 @@ from 9xmMusic.utilities.strings import get_command
 from 9xmMusic import bot
 from 9xmMusic.modules.core.call import Kaal
 from 9xmMusic.modules.main.database import set_loop
-from SankiMusic.modules.main.decorators import AdminRightsCheck
+from 9xmMusic.modules.main.decorators import AdminRightsCheck
 from 9xmMusic.utilities.events.filters import command
 from 9xmMusic.utilities.inline.play import close_keyboard
 
