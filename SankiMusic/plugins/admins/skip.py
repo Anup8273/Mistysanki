@@ -1,20 +1,20 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from SankiMusic.utilities import config
-from SankiMusic.utilities.config import BANNED_USERS
-from SankiMusic.utilities.strings import get_command
-from SankiMusic import YouTube, bot
-from SankiMusic.modules.core.call import Kaal
-from SankiMusic.misc import db
-from SankiMusic.modules.main.database import get_loop
-from SankiMusic.modules.main.decorators import AdminRightsCheck
-from SankiMusic.utilities.events.filters import command
-from SankiMusic.utilities.inline.play import (stream_markup,
+from 9xmMusic.utilities import config
+from 9xmMusic.utilities.config import BANNED_USERS
+from 9xmMusic.utilities.strings import get_command
+from 9xmMusic import YouTube, bot
+from 9xmMusic.modules.core.call import Kaal
+from 9xmMusic.misc import db
+from 9xmMusic.modules.main.database import get_loop
+from 9xmMusic.modules.main.decorators import AdminRightsCheck
+from 9xmMusic.utilities.events.filters import command
+from 9xmMusic.utilities.inline.play import (stream_markup,
                                           telegram_markup,
                                           close_keyboard)
-from SankiMusic.modules.main.streamer.autoclear import auto_clean
-from SankiMusic.modules.utils.thumbnails import gen_thumb
+from 9xmMusic.modules.main.streamer.autoclear import auto_clean
+from 9xmMusic.modules.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
