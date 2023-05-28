@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SankiMusic.utilities.config import BANNED_USERS
-from SankiMusic.utilities.strings import get_command
-from SankiMusic import bot
-from SankiMusic.modules.main.database.memorydatabase import (get_loop,
+from 9xmMusic.utilities.config import BANNED_USERS
+from 9xmMusic.utilities.strings import get_command
+from 9xmMusic import bot
+from 9xmMusic.modules.main.database.memorydatabase import (get_loop,
                                                                set_loop)
-from SankiMusic.modules.main.decorators import AdminRightsCheck
+from 9xmMusic.modules.main.decorators import AdminRightsCheck
 
 # Commands
 LOOP_COMMAND = get_command("LOOP_COMMAND")
