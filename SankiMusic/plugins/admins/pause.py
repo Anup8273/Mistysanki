@@ -1,14 +1,14 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SankiMusic.utilities.config import BANNED_USERS
-from SankiMusic.utilities.strings import get_command
-from SankiMusic import bot
-from SankiMusic.modules.core.call import Kaal
-from SankiMusic.modules.main.database import is_music_playing, music_off
-from SankiMusic.modules.main.decorators import AdminRightsCheck
-from SankiMusic.utilities.events.filters import command
-from SankiMusic.utilities.inline.play import close_keyboard
+from 9xmMusic.utilities.config import BANNED_USERS
+from 9xmMusic.utilities.strings import get_command
+from 9xmMusic import bot
+from 9xmMusic.modules.core.call import Kaal
+from 9xmMusic.modules.main.database import is_music_playing, music_off
+from 9xmMusic.modules.main.decorators import AdminRightsCheck
+from 9xmMusic.utilities.events.filters import command
+from 9xmMusic.utilities.inline.play import close_keyboard
 
 # Commands
 PAUSE_COMMAND = get_command("PAUSE_COMMAND")
