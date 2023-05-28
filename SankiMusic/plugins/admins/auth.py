@@ -1,14 +1,14 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from SankiMusic.utilities.config import BANNED_USERS, adminlist
-from SankiMusic.utilities.strings import get_command
-from SankiMusic import bot
-from SankiMusic.modules.main.database import (delete_authuser, get_authuser,
+from 9xmMusic.utilities.config import BANNED_USERS, adminlist
+from 9xmMusic.utilities.strings import get_command
+from 9xmMusic import bot
+from 9xmMusic.modules.main.database import (delete_authuser, get_authuser,
                                        get_authuser_names,
                                        save_authuser)
-from SankiMusic.modules.main.decorators import AdminActual
-from SankiMusic.modules.utils.formatters import int_to_alpha
+from 9xmMusic.modules.main.decorators import AdminActual
+from 9xmMusic.modules.utils.formatters import int_to_alpha
 
 # Command
 AUTH_COMMAND = get_command("AUTH_COMMAND")
