@@ -6,4 +6,4 @@ RUN apt-get update -y && apt-get upgrade -y \
 COPY . /yamraj/
 WORKDIR /yamraj/
 RUN pip3 install --no-cache-dir --upgrade --requirement Installer
-CMD python3 -m 9xxmMusic
+CMD python3 -m SankiMusic
